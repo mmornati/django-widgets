@@ -1,4 +1,8 @@
-django-widgets, based on a google-code django widgets project (http://code.google.com/p/django-widgets/) and on INettus (http://nettuts.s3.amazonaws.com/127_iNETTUTS/demo/index.html) to a better interaction with your dashboard.
+
+django-widgets
+Based on a google-code django widgets project (http://code.google.com/p/django-widgets/) and on INettus (http://nettuts.s3.amazonaws.com/127_iNETTUTS/demo/index.html) to a better interaction with your dashboard.
+
+---------------------------------------------------------------------------
     Copyright (C) 2011  Marco Mornati <ilmorna at gmail dot com>
 
     This program is free software: you can redistribute it and/or modify
@@ -13,6 +17,8 @@ django-widgets, based on a google-code django widgets project (http://code.googl
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+---------------------------------------------------------------------------
+
 
 You can find the official and latest documentation for the project directly on GitHub Wiki:
 
