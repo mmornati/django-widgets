@@ -1,0 +1,13 @@
+{% load widgets %}
+
+{% block content %}
+<div id="columns">
+	{% for column_id, content in widgets.items%}
+	<ul id="column{{column_id}}" class="column">
+		{% for current_widget in content%}
+		{% widget current_widget.name %}
+		{% endfor %}
+	</ul>
+	{% endfor %}
+</div>
+{% endblock %} 
