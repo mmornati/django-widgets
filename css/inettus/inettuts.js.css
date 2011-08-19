@@ -1,0 +1,87 @@
+/* JS-Enabled CSS */
+
+.widget-head a.remove  {
+    float: right;
+    display: inline;
+    background: url(/static/images/widgets/close.png) no-repeat;
+    width: 24px;
+    height: 24px;
+    margin: 3px 4px 8px 0;
+    text-indent: -9999em;
+    outline: none;
+}
+
+.widget-head a.edit  {
+    float: right;
+    display: inline;
+    background: url(/static/images/widgets/edit.png) no-repeat;
+    width: 24px;
+    height: 24px;
+    text-indent: -9999em;
+    margin: 3px 4px 8px 0px;
+    outline: none;
+}
+
+
+.widget-head a.refresh  {
+    float: right;
+    display: inline;
+    background: url(/static/images/widgets/refresh.png) no-repeat;
+    width: 24px;
+    height: 24px;
+    text-indent: -9999em;
+    margin: 3px 4px 8px 0px;
+    outline: none;
+}
+
+.widget-head a.collapse  {
+    float: left;
+    display: inline;
+    background: url(/static/images/widgets/expand-collapse.png) no-repeat;
+    width: 24px;
+    height: 24px;
+    text-indent: -9999em;
+    background-position: -24px 0;
+    margin: 3px 0 8px 4px;
+    outline: none;
+}
+
+.widget-placeholder { border: 2px dashed #999;}
+#column1 .widget-placeholder { margin: 10px 5px 0 5px; }
+#column2 .widget-placeholder { margin: 10px 5px 0 5px; }
+#column3 .widget-placeholder { margin: 10px 5px 0 5px; }
+
+.edit-box {
+    overflow: hidden;
+    /*background: #333 url(/static/images/dashboard/widget-content-bg.png) repeat-x;*/
+    background-color: #eaeaea;
+    margin-bottom: 2px;
+    padding: 10px 0;
+}
+
+.edit-box li.item {
+    padding: 10px 0;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    clear: both;
+}
+
+
+.edit-box label {
+    float: left;
+    width: 30%;
+    color: #FFF;
+    padding: 0 0 0 10px;
+}
+
+.edit-box ul.colors li {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #EEE;
+    float: left;
+    display: inline;
+    margin: 0 5px 0 0;
+    cursor: pointer;
+}
+
