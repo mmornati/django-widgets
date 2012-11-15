@@ -1,5 +1,5 @@
 from django import template
-from webui.widgets.loading import registry
+from widgets.loading import registry
 register = template.Library()
 
 @register.simple_tag

@@ -1,7 +1,7 @@
 import copy
 
 from django.conf import settings
-from webui.widgets.models import Widget
+from django-widgets.models import Widget
 import logging
 
 logger = logging.getLogger(__name__)

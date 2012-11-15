@@ -1,4 +1,4 @@
-from webui.widgets.base import Widget
+from django-widgets.base import Widget
 
 import unittest
 

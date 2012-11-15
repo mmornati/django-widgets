@@ -4,7 +4,7 @@ Created on Aug 11, 2011
 @author: mmornati
 '''
 
-from webui.widgets.models import Widget
+from django-widgets.models import Widget
 from django.contrib import admin
 
 class WidgetAdmin(admin.ModelAdmin):
